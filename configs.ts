@@ -4,7 +4,7 @@
 
 export const configs = {
   // Your bot token goes here
-  token: "",
+  token: "Nzg4NzkyMDMwODg0MTM0OTg1.X9op0w.2S6Rzww06-LhEHGMSQdlJNt3p68",
   // The default prefix for your bot. Don't worry guilds can change this later.
   prefix: "!",
   // This isn't required but you can add bot list api keys here.
@@ -19,13 +19,13 @@ export const configs = {
     DISCORD_BOTS_GROUP: "",
   },
   // This is the server id for your bot's main server where users can get help/support
-  supportServerID: "",
+  supportServerID: "605741544909307929",
   // These are channel ids that will enable some functionality
   channelIDs: {
     // When a translation is missing this is the channel you will be alerted in.
-    missingTranslation: "",
+    missingTranslation: "788804481398997003",
     // When an error occurs, we will try and log it to this channel
-    errorChannelID: "",
+    errorChannelID: "788804481398997003",
   },
   // These are the role ids that will enable some functionality.
   roleIDs: {
@@ -40,6 +40,6 @@ export const configs = {
     // The user ids for the other devs on your team
     botDevs: [] as string[],
     // The user ids who have complete 100% access to your bot
-    botOwners: [] as string[],
+    botOwners: ["141350025149022208"] as string[],
   },
 };
