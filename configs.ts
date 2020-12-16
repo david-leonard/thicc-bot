@@ -1,10 +1,8 @@
-// Step 1: Remove the `.example` from this file name so it is called `configs.ts`
-// Step 2: Add all your bot's information below. The only required one is token and prefix. NOTE: As long as `.gitignore` file is ignoring configs.ts your configurations will be kept private!
-// Step 3: Remove these comments if you like.
+import { key } from "./secrets.ts"
 
 export const configs = {
   // Your bot token goes here
-  token: "Nzg4NzkyMDMwODg0MTM0OTg1.X9op0w.2S6Rzww06-LhEHGMSQdlJNt3p68",
+  token: key,
   // The default prefix for your bot. Don't worry guilds can change this later.
   prefix: "!",
   // This isn't required but you can add bot list api keys here.
